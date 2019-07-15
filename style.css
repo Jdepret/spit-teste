@@ -129,7 +129,13 @@ h2 {
  
 }
 
+#menu .container {
+    display: flex;
+    justify-content: center;
+}
+
 #menu a {
+    width: auto;
     height: 50px;
     box-sizing: border-box;
     text-transform: uppercase;
@@ -140,6 +146,8 @@ h2 {
     text-decoration: none;
     display: inline-block;
     border-right: solid 1px #ffffff;
+    
+    
     
 }
 
